@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Search = () => {
+export const GiftsPur = () => {
   return (
     <div>
       <div class="wrap">
@@ -8,7 +8,7 @@ export const Search = () => {
           <input
             type="text"
             class="searchTerm"
-            placeholder="lista regalos available"
+            placeholder="lista regalos purchased"
           />
           <button type="submit" class="searchButton">
             &#128270;
@@ -19,4 +19,4 @@ export const Search = () => {
   );
 };
 
-export default Search;
+export default GiftsPur;

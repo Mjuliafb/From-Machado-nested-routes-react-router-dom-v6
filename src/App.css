@@ -23,7 +23,7 @@ nav {
 }
 
 a {
-  color: white;
+  color: black;
   text-decoration: none;
   margin: 10px;
   font-size: 25px;
@@ -88,7 +88,7 @@ a {
 }
 
 .productsNav a {
-  width: 150px;
+  width: 200px;
   height: 50px;
   background-color: rgb(69, 62, 249);
   border-radius: 5px;
@@ -108,6 +108,12 @@ a {
 .productsList {
   columns: 3 auto;
   display: inline-block;
+}
+
+.outlet {
+  display: flex;
+  background-color: gray;
+  justify-content: flex-end;
 }
 
 .productDisplay {
